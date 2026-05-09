@@ -15,6 +15,29 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "FLIR Image Converter",
   description: "Convert images to FLIR/thermal imaging style",
+
+  openGraph: {
+    title: "UFO Camera",
+    description: "A fun project to convert regular images into FLIR/thermal imaging style",
+    url: "https://ufo-ir-img.vercel.app/",
+    siteName: "Ardent",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Preview image description",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Ardent",
+    description: "Ardent's Portfolio",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
