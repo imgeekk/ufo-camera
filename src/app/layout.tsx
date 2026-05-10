@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "UFO Camera",
     description: "A fun project to convert regular images into FLIR/thermal imaging style",
     url: "https://ufo-ir-img.vercel.app/",
-    siteName: "Ardent",
+    siteName: "UAP img converter",
     images: [
       {
         url: "/og-image.png",
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Ardent",
-    description: "Ardent's Portfolio",
+    title: "UAP img converter",
+    description: "Convert images to FLIR/thermal imaging style",
     images: ["/og-image.png"],
   },
 };
